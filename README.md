@@ -13,8 +13,8 @@
 *MENTOR*: NEELA SANTOSH
 
 *DESCRIPTON OF THE TASK*
-This C++ program is a simple file handling utility that allows users to perform basic file operations such as writing to a new file, reading from an existing file, and appending content to an existing file.
 
+This C++ program is a simple file handling utility that allows users to perform basic file operations such as writing to a new file, reading from an existing file, and appending content to an existing file.
 The program is designed with a user-friendly interface, utilizing ANSI escape codes to add colors and styles to the terminal output, making it visually appealing and easier to navigate.
 
 Key Components of the Code:
