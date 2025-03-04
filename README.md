@@ -25,17 +25,13 @@ Key Components of the Code:
 
     For example, RED changes the text color to red, and BOLD makes the text bold.
 
-
-
 2. Main Function:
 
-The main() function is the entry point of the program. It displays a menu to the user and processes their choice.
+    The main() function is the entry point of the program. It displays a menu to the user and processes their choice.
 
-The menu options include writing to a file, reading from a file, appending to a file, and exiting the program.
+    The menu options include writing to a file, reading from a file, appending to a file, and exiting the program.
 
-The program runs in a loop until the user chooses to exit.
-
-
+    The program runs in a loop until the user chooses to exit.
 
 3. Menu Display:
 
