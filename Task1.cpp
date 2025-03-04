@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// ANSI Escape Codes for Colors and Styles
+// ANSI codes for Colors and Styles
 const string RESET = "\033[0m";
 const string BOLD = "\033[1m";
 const string RED = "\033[31m";
@@ -16,7 +16,7 @@ const string MAGENTA = "\033[35m";
 const string CYAN = "\033[36m";
 const string BG_BLACK = "\033[40m";
 
-// Function prototypes
+// Basic necessary Functions
 void displayMenu();
 void clearScreen();
 void printHeader();
@@ -31,7 +31,8 @@ int main() {
         clearScreen();
         printHeader();
         displayMenu();
-        
+
+        //Here, the user need to enter the choice base on their needs
         cout << BOLD << "┃ " << CYAN << "Enter your choice: " << RESET;
         cin >> choice;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -63,6 +64,7 @@ void clearScreen() {
     cout << "\033[2J\033[1;1H";
 }
 
+//This part is used here for styling the selection menu
 void printHeader() {
     cout << BOLD << BLUE 
          << "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\n"
@@ -84,6 +86,7 @@ void displayMenu() {
          << RESET;
 }
 
+//This below is the code for writing data into the file - the file will be created and the data will be stored into it
 void handleWrite() {
     clearScreen();
     printHeader();
@@ -113,6 +116,7 @@ void handleWrite() {
     pressEnterToContinue();
 }
 
+//This below is the code for reading data from the file
 void handleRead() {
     clearScreen();
     printHeader();
@@ -138,6 +142,7 @@ void handleRead() {
     pressEnterToContinue();
 }
 
+//This below is the code for adding data into a file - also referred to as 'Append' in technical terms
 void handleAppend() {
     clearScreen();
     printHeader();
