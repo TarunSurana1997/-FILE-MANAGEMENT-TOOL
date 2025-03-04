@@ -96,8 +96,13 @@ The use of colors and styles enhances the user experience, making the program mo
 
 <h1>OUTPUT</h1>
 ![Image](https://github.com/user-attachments/assets/24a196a3-561a-45a7-a35a-a24f33909f89)
+
 ![Image](https://github.com/user-attachments/assets/a28271f1-d833-4535-a399-cbb9e974d866)
+
 ![Image](https://github.com/user-attachments/assets/e82f171f-f0f9-42e2-8b0b-33dd3db7c58c)
+
 ![Image](https://github.com/user-attachments/assets/fa521a3f-eb1f-436a-9150-d69a553d7e67)
+
 ![Image](https://github.com/user-attachments/assets/6d9dde3b-b2fa-41bf-8ad7-85f333a62360)
+
 ![Image](https://github.com/user-attachments/assets/52a9209e-8fc1-4e5a-8185-89afd8ed34c7)
