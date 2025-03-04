@@ -19,11 +19,11 @@ The program is designed with a user-friendly interface, utilizing ANSI escape co
 
 Key Components of the Code:
 1. ANSI Escape Codes:
-The program uses ANSI escape codes to format the terminal output. These codes are stored in string constants like RESET, BOLD, RED, GREEN, etc.
+    The program uses ANSI escape codes to format the terminal output. These codes are stored in string constants like RESET, BOLD, RED, GREEN, etc.
 
-They are used to change the text color, background color, and text style (e.g., bold) in the terminal.
+    They are used to change the text color, background color, and text style (e.g., bold) in the terminal.
 
-For example, RED changes the text color to red, and BOLD makes the text bold.
+    For example, RED changes the text color to red, and BOLD makes the text bold.
 
 
 
