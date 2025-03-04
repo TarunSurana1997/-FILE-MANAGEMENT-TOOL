@@ -35,9 +35,9 @@ Key Components of the Code:
 
 3. Menu Display:
 
-The displayMenu() function prints the main menu with options for the user to choose from.
+    The displayMenu() function prints the main menu with options for the user to choose from.
 
-The menu is styled with colors and borders to make it visually distinct.
+    The menu is styled with colors and borders to make it visually distinct.
 
 
 
@@ -49,6 +49,7 @@ The menu is styled with colors and borders to make it visually distinct.
    The content is then saved to the specified file.
 
 b. Reading from a File: The handleRead() function lets the user read the contents of an existing file.
+
     The user provides the filename, and the program reads and displays the file's content line by line.
 
 c. Appending to a File: The handleAppend() function allows the user to add content to an existing file without overwriting its current content.
