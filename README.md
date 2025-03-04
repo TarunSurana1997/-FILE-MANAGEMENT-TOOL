@@ -1,28 +1,26 @@
-#  FILE MANAGEMENT TOOL
+<h1>FILE MANAGEMENT TOOL</h1>
 
-*COMPANY*: CODTECH IT SOLUTIONS
+<h2>COMPANY: CODTECH IT SOLUTIONS
 
-*NAME*: TARUN SURANA
+NAME: TARUN SURANA
 
-*INTERN ID*: CT12KDX
+INTERN ID: CT12KDX
 
-*DOMAIN*: C++ PROGRAMMING
+DOMAIN: C++ PROGRAMMING
 
-*DURATION*: 8 WEEEKS
+DURATION: 8 WEEEKS
 
-*MENTOR*: NEELA SANTOSH
+MENTOR: NEELA SANTOSH</h2>
 
-*DESCRIPTON OF THE TASK*
+<h2>DESCRIPTON OF THE TASK</h2>
 
 This C++ program is a simple file handling utility that allows users to perform basic file operations such as writing to a new file, reading from an existing file, and appending content to an existing file.
 The program is designed with a user-friendly interface, utilizing ANSI escape codes to add colors and styles to the terminal output, making it visually appealing and easier to navigate.
 
-Key Components of the Code:
+<H2>Key Components of the Code</H2>
 1. ANSI Escape Codes:
-    The program uses ANSI escape codes to format the terminal output. These codes are stored in string constants like RESET, BOLD, RED, GREEN, etc.
-
+    The program uses ANSI escape codes to format the terminal output. These codes are stored in string constants like RESET, BOLD, RED,         GREEN, etc.
     They are used to change the text color, background color, and text style (e.g., bold) in the terminal.
-
     For example, RED changes the text color to red, and BOLD makes the text bold.
 
 2. Main Function:
@@ -39,11 +37,9 @@ Key Components of the Code:
 
     The menu is styled with colors and borders to make it visually distinct.
 
-
-
 4. File Operations:
    
-  a. Writing to a File: The handleWrite() function allows the user to create a new file and write content to it.
+a. Writing to a File: The handleWrite() function allows the user to create a new file and write content to it.
     The user is prompted to enter a filename and then input content line by line. The input ends when the user types "END" on a new line.
     The content is then saved to the specified file.
 
@@ -73,7 +69,7 @@ The printHeader() function displays a styled header with the program's name, "FI
 
 This adds to the program's aesthetic appeal and provides a clear indication of the program's purpose.
 <br><br>
-Workflow:
+<h2>Workflow</h2>
 1. The program starts by displaying a colorful header and menu.
 
 2. The user selects an option (write, read, append, or exit).
@@ -83,14 +79,14 @@ Workflow:
 4. After each operation, the program pauses and waits for the user to press Enter before returning to the main menu.
 
 5. The loop continues until the user chooses to exit.
-
-Error Handling:
+<br><br>
+<h2>Error Handling</h2>
 
 The program checks if files can be opened or created successfully.
 
 If not, it displays an error message and returns to the main menu.
 <br><br>
-Conclusion:
+<h2>Conclusion</h2>
 
 This program is a practical example of how to create a simple, interactive command-line tool in C++.
 
