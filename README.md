@@ -72,7 +72,7 @@ This is used before displaying the menu or any file content to avoid clutter.
 The printHeader() function displays a styled header with the program's name, "FILE HANDLER," at the top of the screen.
 
 This adds to the program's aesthetic appeal and provides a clear indication of the program's purpose.
-
+<br><br>
 Workflow:
 1. The program starts by displaying a colorful header and menu.
 
@@ -89,7 +89,7 @@ Error Handling:
 The program checks if files can be opened or created successfully.
 
 If not, it displays an error message and returns to the main menu.
-
+<br><br>
 Conclusion:
 
 This program is a practical example of how to create a simple, interactive command-line tool in C++.
